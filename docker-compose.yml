@@ -1,0 +1,5 @@
+services:
+  server:
+    build: ./server
+    env_file:
+      - ./server/cmd/.env
